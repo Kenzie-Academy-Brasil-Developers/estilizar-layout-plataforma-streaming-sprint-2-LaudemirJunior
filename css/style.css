@@ -148,7 +148,7 @@ SUGESTÃO DE ESTRUTURAÇÃO BASE
 	
 	.addPerfil img {
 		width: 70%;
-		transform:translate(20%, 50%);
+		transform:translate(20%, 60%);
 	}
 	
 	@media (max-width: 800px){
