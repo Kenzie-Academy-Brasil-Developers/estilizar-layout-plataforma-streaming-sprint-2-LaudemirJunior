@@ -147,8 +147,11 @@ SUGESTÃO DE ESTRUTURAÇÃO BASE
 	} 
 	
 	.addPerfil img {
-		width: 70%;
-		transform:translate(20%, 60%);
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+		transform:translate(0%, 30%);
 	}
 	
 	@media (max-width: 800px){
