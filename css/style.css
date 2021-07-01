@@ -1,44 +1,6 @@
-/*
-Theme Name: Netflix
-Author: Kenzie Academy
-Author URI: kenzie.com.br;
-Version: 1.0
- 
---------------------------------------------
-SUGESTÃO DE ESTRUTURAÇÃO BASE 
---------------------------------------------
-**** DECLARAÇÃO DE VARIÁVEIS
-**** BODY
-**** TOPO
-**** RODAPÉ
-**** PÁGINA INICIAL
-*/
-
-/* VARIÁVEIS */
-/* :root{
-  
-}
-/*BODY*/
-	/* body{
-	} */
-
-/*TOPO*/
-	/* header.topo{
-		
-	} */
-
-/*RODAPÉ*/
-	
-
-/*PÁGINA INICIAL*/
-	/* div.pg-home{
-		
-	} */
-
 	body {
 		margin: 0;
 		padding: 0;
-		box-sizing: border-box;
 		font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
 		color: white;
 		background-color: #141414;
@@ -46,12 +8,6 @@ SUGESTÃO DE ESTRUTURAÇÃO BASE
 	
 	figcaption {
 		display: none;
-	}
-	
-	.topo {
-		display: flex;
-		justify-content: flex-start;
-		align-items: center;
 	}
 	
 	.topo > figure {
@@ -66,14 +22,12 @@ SUGESTÃO DE ESTRUTURAÇÃO BASE
 		align-items: center;
 		width: 100%;
 		min-height: 90vh;
-		margin: 0;
-		padding: 0;
 	}
-	
+
 	section {
 		display: flex;
-		align-items: center;
 		flex-direction: column;
+		width: 858px;
 	}
 	
 	h2 {
@@ -85,9 +39,11 @@ SUGESTÃO DE ESTRUTURAÇÃO BASE
 	
 	ul {
 		display: flex;
+		align-items: center;
+		justify-content: space-evenly;
 		margin: 0;
 		padding: 0;
-		
+		flex: 1 1 186px;
 	}
 	
 	li {
@@ -96,19 +52,14 @@ SUGESTÃO DE ESTRUTURAÇÃO BASE
 		align-items: center;
 		justify-content: center;
 		flex-direction: column;
-		flex: 1 1 40vw;
-		width: 100%;
+		width: 186px;
 	}
 	
 	li img {
 		border-radius: 7px;
 		width: 100%;
-		min-width: 84px;
-		min-height: 84px;
-		max-width: 200px;
-		max-height: 200px;
 	}
-	
+
 	h3 {
 		opacity: 0.5;
 	}
@@ -139,22 +90,8 @@ SUGESTÃO DE ESTRUTURAÇÃO BASE
 		opacity: 1;
 		cursor: pointer;
 	}
-	
-	.addPerfil {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	} 
-	
-	.addPerfil img {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		width: 100%;
-		transform:translate(0%, 30%);
-	}
-	
-	@media (max-width: 800px){
+
+	@media (max-width: 600px){
 		ul{flex-wrap: wrap;
 		}
 	}
